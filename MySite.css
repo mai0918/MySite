@@ -163,16 +163,21 @@ header{
 .boox{
   float:left;
   width:320px;
+  margin:0 auto;
+}
+.boox2{
+  float:left;
+  width:320px;
+  margin:0 10px auto;
 }
 .featuree{
   font-size:20px;
   color:#000000;
   text-align:center;
-  margin:10px 0;
+  margin:0 auto;
 }
 .feature-text{
   text-align:left;
-  margin:0 10px;
 }
 .Feature-content i{
   font-size:60px;
@@ -325,9 +330,9 @@ footer{
 
 @media screen and (max-width:767px){
   header{
-  	width:90%;
+  	width:100%;
   	height:50px;
-    margin:0 5% auto;
+    margin:0 auto;
   }
 .header-content{
   width:90%;
@@ -367,7 +372,7 @@ footer{
     background-color: rgba(0,0,0,.9);
 }
  .main-visual{
-   width:90%;
+   width:100%;
    height:650px;
    background-image:url(img/code.png);
   }
@@ -382,8 +387,8 @@ footer{
     padding-top: 10px;
   }
   .Portfolio{
-   width:90%;
-   margin:0 5% auto;
+   width:100%;
+   margin:0 auto;
    text-align: center;
   }
 .Portfolio-content{
@@ -421,26 +426,34 @@ footer{
   margin:0 auto;
 }
 .Feature{
-  width:90%;
-  margin:90px 5% auto;
+  width:100%;
+  margin:90px 0 auto;
 }
 .Feature-content{
   width: 90%;
   text-align: center;
 }
+.featuree{
+  padding:10px 0;
+}
 .boox{
   float: none;
   margin: 0 auto;
   text-align: center;
-  padding:0 0 10px;
+}
+.boox2{
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  padding:10px 0;
 }
 .boox:last-child{margin-bottom: 90px;}
 .Feature-content i{
   padding-left: 5px;
 }
 .Profile{
-  width: 90%;
-  margin:0 5% auto;
+  width: 100%;
+  margin:0 auto;
 }
 .Profile-content{
   width:90%;
@@ -457,8 +470,8 @@ footer{
   padding-top: 20px;
 }
 .Contact{
-  width: 90%;
-  margin: 90px 5% auto;
+  width: 100%;
+  margin: 90px auto;
 }
 .ccc{
   width:90%;
@@ -471,6 +484,7 @@ footer{
 }
 .rightcon{
   float: none;
+  width:100%;
 }
 .Mail{
   width: 100%;
@@ -489,9 +503,9 @@ footer{
   padding-bottom: 90px;
 }
 footer{
-  width:90%;
+  width:100%;
   height:60px;
-  margin:0 5% auto;
+  margin:0 auto;
 }
 
 
