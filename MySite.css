@@ -28,8 +28,7 @@ header{
 }
 .navv{
   float:left;
-  padding-right:30px;
-  padding-top:20px;
+  padding:20px 30px 0;
   font-size:16px;
   color:#FAFAFA;
   list-style: none;
@@ -164,7 +163,6 @@ header{
 .boox{
   float:left;
   width:320px;
-  padding-right:10px;
 }
 .featuree{
   font-size:20px;
@@ -174,6 +172,7 @@ header{
 }
 .feature-text{
   text-align:left;
+  margin:0 10px;
 }
 .Feature-content i{
   font-size:60px;
@@ -212,7 +211,7 @@ header{
 }
 .left{
   float:left;
-  width:50%;
+  width:512px;
   margin:0 auto;
 }
 .face{
@@ -225,7 +224,7 @@ header{
 }
 .right{
   float:left;
-  width:50%;
+  width:512px;
   margin:0 auto;
 }
 .name{
@@ -269,13 +268,16 @@ header{
   text-align:center;
   margin:30px 0;
 }
+.ccc{
+  width:800px;
+  margin:0 auto;
+}
 .leftcon{
   float:left;
-  width:50%;
+     margin:0 auto;
+ width:400px;
 }
 .leftt{
-  width:130px;
-    margin:0 auto;
     text-align: center;
 }
 .Mail{
@@ -284,14 +286,18 @@ header{
   padding-bottom:5px;
   text-align:center;
 }
+.ccc{
+  margin:0 auto;
+}
 .lefco{
   text-align:center;
+  margin: 0 auto;
   padding-bottom: 20px;
   color:#000000;
 }
 .rightcon{
   float:left;
-  width:50%;
+  width:400px;
   margin:0 auto;
 }
 .SNS{
@@ -426,8 +432,9 @@ footer{
   float: none;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 10px;
+  padding:0 0 10px;
 }
+.boox:last-child{margin-bottom: 90px;}
 .Feature-content i{
   padding-left: 5px;
 }
@@ -440,9 +447,11 @@ footer{
   text-align: center;
 }
 .left{
+  width: 90%;
   float: none;
 }
 .right{
+  width: 90%;
   float: none;
   text-align: center;
   padding-top: 20px;
@@ -451,9 +460,13 @@ footer{
   width: 90%;
   margin: 90px 5% auto;
 }
+.ccc{
+  width:90%;
+  margin: 0 auto;
+}
 .leftcon{
   float: none;
-  width:90%;
+  width:100%;
   text-align: center;
 }
 .rightcon{
